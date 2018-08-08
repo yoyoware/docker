@@ -4,8 +4,7 @@ below are some quick docker demos including 3rd party FREE sites to deploy on<br
 demo: nginx on docker<br>
 www.play-with-docker.com<br>
 git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;docker-compose up<br>
-git add -A; git commit -m "comment"; git push origin master<br>
-<br>
+git config --global user.email "michaelemens@gmail.com";git add -A; git commit -m "comment"; git push origin master<br>
 <br>
 
 

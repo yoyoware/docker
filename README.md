@@ -1,12 +1,10 @@
-this folder has a number of docker demo's including:
+below are some quick docker demos including 3rd party FREE sites to deploy on
 
-demo-nginx 
-this demo will launch a single container running the nginx web server with a volume mount to your local path allowing for custom html
-
-
-
-
-
+-----------------------------------------------
+demo: nginx on docker
+www.play-with-docker.com
+git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;docker-compose up
+git add -A; git commit -m "comment"; git push origin master
 
 
 

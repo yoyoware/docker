@@ -1,4 +1,8 @@
-to start the server simple run 'docker-compose up &'
+quick steps to deploy
 
-the website html can be found and edited in the folder 'web'
+play-with-docker.com
+
+git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;docker-compose up
+
+
 

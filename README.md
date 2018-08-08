@@ -9,8 +9,12 @@ git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;docker-compose
 drupal on docker without persistence<br>
 git clone https://github.com/yoyoware/docker;cd docker/demo-drupal;docker-compose up<br>
 <br>
+<br>
+<br>
+<br>
 -----------------------------------------------<br>
-<b>paste to update git:</b>git config --global user.email "michaelemens@gmail.com";git add -A; git commit -m "comment"; git push origin master<br>
+update git
+git config --global user.email "michaelemens@gmail.com";git add -A; git commit -m "comment"; git push origin master<br>
 
 
 

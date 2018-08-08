@@ -1,17 +1,21 @@
 below are some quick docker demos<br>
 <br>
-here is a site providing FREE docker nodes: www.play-with-docker.com<br>
+this site provides FREE docker nodes: www.play-with-docker.com<br>
+<br>
+<br>
+nginx on docker<br>
+git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;docker-compose up<br>
+<br>
+<br>
+drupal on docker without persistence<br>
+git clone https://github.com/yoyoware/docker;cd docker/demo-drupal;docker-compose up<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 -----------------------------------------------<br>
-nginx on docker<br><br>
-<b>paste to run:</b>git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;docker-compose up<br>
 <b>paste to update git:</b>git config --global user.email "michaelemens@gmail.com";git add -A; git commit -m "comment"; git push origin master<br>
-<br>
------------------------------------------------<br>
-drupal on docker <b>without</b> persistence<br><br>
-<b>paste to run:</b>git clone https://github.com/yoyoware/docker;cd docker/demo-drupal;docker-compose up<br>
-<b>paste to update git:</b>git config --global user.email "michaelemens@gmail.com";git add -A; git commit -m "comment"; git push origin master<br>
-<br>
 
 
 

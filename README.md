@@ -7,6 +7,15 @@ git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;docker-compose
 <br>
 drupal on docker without persistence<br>
 git clone https://github.com/yoyoware/docker;cd docker/demo-drupal;docker-compose up<br>
+configuration:<br>
+language = english<br>
+profile = standard<br>
+database = postgres<br>
+database name = postgres<br>
+database username = postgres<br>
+password = mypassword<br>
+advanced options host = postgres<br>
+site configure page: enter all required fields to your choice<br>
 <br>
 <br>
 <br>

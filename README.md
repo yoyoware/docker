@@ -1,4 +1,4 @@
-below are some quick docker demos<br>
+below are some quick (one command line) docker demos<br>
 <br>
 this site provides FREE docker nodes: www.play-with-docker.com<br>
 <br>

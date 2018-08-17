@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+   jenkins:
+      container_name: demo-jenkins 
+      image: jenkins:latest
+      ports:
+         - 8080:8080
+      volumes:
+         - "./my-jenkins-data:/var/jenkins_home"
+

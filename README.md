@@ -12,7 +12,7 @@ configuration: language = english, profile = standard, database = postgres, data
 <br>
 <br>
 <br>
-<h1>update git</h1>
+<h1>git commit</h1>
 cd; rm -rf ./docker/demo-jenkins-with-volume/my-jenkins-data;cd ./docker;git config --global user.email "michaelemens@gmail.com";git pull;git add -A; git commit -m "comment"; git push origin master</b>
 
 

@@ -2,7 +2,7 @@ below are some quick (one command line) docker demos<br>
 <br>
 if you don't have an OS running docker, this site provides FREE docker nodes: www.play-with-docker.com<br>
 <br>
-<h1>nginx (with volume persistence)</h1>
+<h1>nginx</h1>(with volume persistence)
 cd;git clone https://github.com/yoyoware/docker;cd docker/demo-nginx-with-volume;docker-compose up<br>
 <br>
 <h1>drupal (with volume persistence)</h1>cd;git clone https://github.com/yoyoware/docker;cd docker/demo-drupal-with-volume;docker-compose up<br>

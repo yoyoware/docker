@@ -1,6 +1,6 @@
 below are some quick (one command line) docker demos<br>
 <br>
-this site provides FREE docker nodes: www.play-with-docker.com<br>
+if you don't have an OS running docker, this site provides FREE docker nodes: www.play-with-docker.com<br>
 <br>
 nginx (with volume persistence)<br>
 <b>cd;git clone https://github.com/yoyoware/docker;cd docker/demo-nginx-with-volume;docker-compose up</b><br>

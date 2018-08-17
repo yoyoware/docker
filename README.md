@@ -28,7 +28,7 @@ jenkins (with volume persistence)<br>
 <br>
 -----------------------------------------------<br>
 update git<br>
-<b>rm -rf /docker/demo-jenkins/my-jenkins-data;cd /docker;git config --global user.email "michaelemens@gmail.com";git pull;git add -A; git commit -m "comment"; git push origin master</b><br>
+<b>cd; rm -rf ./docker/demo-jenkins/my-jenkins-data;cd ./docker;git config --global user.email "michaelemens@gmail.com";git pull;git add -A; git commit -m "comment"; git push origin master</b><br>
 
 
 

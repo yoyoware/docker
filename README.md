@@ -5,8 +5,7 @@ if you don't have an OS running docker, this site provides FREE docker nodes: ww
 <h1>nginx (with volume persistence)</h1><br>
 <b>cd;git clone https://github.com/yoyoware/docker;cd docker/demo-nginx-with-volume;docker-compose up</b><br>
 <br>
-<h1>drupal (with volume persistence)</h1><br>
-<b>cd;git clone https://github.com/yoyoware/docker;cd docker/demo-drupal-with-volume;docker-compose up</b><br>
+<h1>drupal (with volume persistence)</h1>cd;git clone https://github.com/yoyoware/docker;cd docker/demo-drupal-with-volume;docker-compose up</b><br>
 configuration:<br>
 language = english<br>
 profile = standard<br>

@@ -1,12 +1,12 @@
-below are some quick docker demos<br>
+below are some quick (one command line) docker demos<br>
 <br>
 this site provides FREE docker nodes: www.play-with-docker.com<br>
 <br>
 nginx on docker<br>
-git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;docker-compose up<br>
+<b>git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;docker-compose up</b><br>
 <br>
 drupal on docker without persistence<br>
-git clone https://github.com/yoyoware/docker;cd docker/demo-drupal;docker-compose up<br>
+<b>git clone https://github.com/yoyoware/docker;cd docker/demo-drupal;docker-compose up</b><br>
 configuration:<br>
 language = english<br>
 profile = standard<br>
@@ -18,7 +18,7 @@ advanced options host = postgres<br>
 site configure page: enter all required fields to your choice<br>
 <br>
 drupal & postgres using overlay<br>
-git clone https://github.com/yoyoware/docker;cd docker/demo-drupal-overlay/drupal-node;docker-compose up<br>
+<b>git clone https://github.com/yoyoware/docker;cd docker/demo-drupal-overlay/drupal-node;docker-compose up</b><br>
 <br>
 <br>
 <br>

@@ -21,7 +21,7 @@ drupal & postgres using overlay<br>
 <b>cd /;git clone https://github.com/yoyoware/docker;cd /docker/demo-drupal-overlay/drupal-node;docker-compose up</b><br>
 <br>
 jenkins<br>
-<b>cd /;git clone https://github.com/yoyoware/docker;cd /docker/demo-jenkins;chmod 777 my-jenkins-data;docker-compose up</b><br>
+<b>cd /;git clone https://github.com/yoyoware/docker;cd /docker/demo-jenkins;mkdir my-jenkins-data;chmod 777 my-jenkins-data;docker-compose up</b><br>
 <br>
 <br>
 <br>

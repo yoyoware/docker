@@ -16,7 +16,7 @@ password = mypassword<br>
 advanced options host = postgres<br>
 site configure page: enter all required fields to your choice<br>
 <br>
-<h1>jenkins (with volume persistence)<h1><br>
+<h1>jenkins (with volume persistence)</h1><br>
 cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-jenkins-with-volume;mkdir my-jenkins-data;chmod 777 my-jenkins-data;docker-compose up<br>
 <br>
 <br>

@@ -25,7 +25,7 @@ drupal & postgres using overlay<br>
 <br>
 -----------------------------------------------<br>
 update git<br>
-git config --global user.email "michaelemens@gmail.com";git add -A; git commit -m "comment"; git push origin master<br>
+<b>git config --global user.email "michaelemens@gmail.com";git pull;git add -A; git commit -m "comment"; git push origin master</b><br>
 
 
 

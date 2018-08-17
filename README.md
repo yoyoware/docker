@@ -15,8 +15,8 @@ cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-jenkins-with-vo
 <br>
 <br>
 -----------------------------------------------<br>
-update git<br>
-<b>cd; rm -rf ./docker/demo-jenkins-with-volume/my-jenkins-data;cd ./docker;git config --global user.email "michaelemens@gmail.com";git pull;git add -A; git commit -m "comment"; git push origin master</b><br>
+<h1>update git</h1>
+cd; rm -rf ./docker/demo-jenkins-with-volume/my-jenkins-data;cd ./docker;git config --global user.email "michaelemens@gmail.com";git pull;git add -A; git commit -m "comment"; git push origin master</b>
 
 
 

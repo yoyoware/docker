@@ -3,7 +3,7 @@ below are some quick docker demos<br>
 this site provides FREE docker nodes: www.play-with-docker.com<br>
 <br>
 nginx on docker<br>
-git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;docker-compose up<br>
+<b>git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;docker-compose up</b><br>
 <br>
 drupal on docker without persistence<br>
 git clone https://github.com/yoyoware/docker;cd docker/demo-drupal;docker-compose up<br>

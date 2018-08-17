@@ -18,7 +18,7 @@ advanced options host = postgres<br>
 site configure page: enter all required fields to your choice<br>
 <br>
 drupal & postgres using overlay<br>
-<b>git clone https://github.com/yoyoware/docker;cd docker/demo-drupal-overlay/drupal-node;docker-compose up</b><br>
+<b>cd /;git clone https://github.com/yoyoware/docker;cd /docker/demo-drupal-overlay/drupal-node;docker-compose up</b><br>
 <br>
 jenkins<br>
 <b>git clone https://github.com/yoyoware/docker;cd docker/demo-jenkins;docker-compose up</b><br>

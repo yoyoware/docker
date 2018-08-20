@@ -12,11 +12,24 @@ configuration: language = english, profile = standard, database = postgres, data
 URL:8080<br>
 configuration: copy/page password from docker install completion page
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <h1>stop & remove all containers, remove dangling volumes</h1>
 docker stop $(docker ps -a -q);docker rm $(docker ps -a -q);docker volume prune -f
 <br>
 <h1>list all containers, images, volumes</h1>
 docker container ls;docker images;docker volume ls
+<br>
+<h1>remove docker tree</h1>
+rm -rf docker
 <br>
 <br>
 <h1>git commit</h1>

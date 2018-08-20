@@ -9,6 +9,8 @@ URL:8080<br>
 configuration: language = english, profile = standard, database = postgres, database name = postgres, database username = postgres, password = mypassword, advanced options host = postgres, site configure page: enter all required fields to your choice<br>
 <br>
 <h1>jenkins</h1>cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-jenkins-with-volume;mkdir my-jenkins-data;chmod 777 my-jenkins-data;docker-compose up<br>
+URL:8080<br>
+configuration: copy/page password from docker install completion page
 <br>
 <br>
 <br>

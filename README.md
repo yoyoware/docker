@@ -12,6 +12,8 @@ configuration: language = english, profile = standard, database = postgres, data
 URL:8080<br>
 configuration: copy/page password from docker install completion page
 <br>
+<h1>stop all containers, remove all containers, remove dangling volumes - FORCED</h1>
+docker stop $(docker ps -a -q);docker rm $(docker ps -a -q);docker volume prune -f
 <br>
 <br>
 <br>

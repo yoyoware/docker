@@ -2,6 +2,6 @@ version: '3'
 
 services:
    alpine:
-      container_name: demo-alpine 
-      image: alpine:latest
-
+      container_name: demo-ubuntu 
+      image: ubuntu:latest
+      command: bash -c "ls"

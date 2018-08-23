@@ -25,7 +25,7 @@ configuration: copy/page password from docker install completion page
 <br>
 <br>
 <h1>stop & remove all containers, remove dangling volumes</h1>
-docker stop $(docker ps -a -q);docker rm $(docker ps -a -q);docker volume prune -f
+docker ps -aq;docker stop $(docker ps -a -q);docker rm $(docker ps -a -q);docker rmi $(docker images -q);docker volume prune -f;docker ps -aq
 <br>
 <h1>list all containers, images, volumes</h1>
 docker container ls;docker images;docker volume ls

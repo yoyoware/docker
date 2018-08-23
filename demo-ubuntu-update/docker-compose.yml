@@ -4,4 +4,4 @@ services:
    ubuntu:
       container_name: demo-ubuntu
       image: ubuntu:latest
-      command: bash -c "apt update; apt-get install git-core;git --version"
+      command: bash -c "apt update; apt install -it git-core;git --version"

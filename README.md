@@ -12,7 +12,7 @@ configuration: language = english, profile = standard, database = postgres, data
 URL:8080<br>
 configuration: copy/page password from docker install completion page
 <br>
-<h1>ubuntu ls</h1>cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-ubuntu;sudo docker-compose up<br>
+<h1>ubuntu ls</h1>cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-ubuntu-ls;sudo docker-compose up<br>
 <h1>ubuntu ls</h1>cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-ubuntu;sudo docker-compose up<br>
 <br>
 <br>

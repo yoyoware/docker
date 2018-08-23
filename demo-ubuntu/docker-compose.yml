@@ -4,4 +4,4 @@ services:
    ubuntu:
       container_name: demo-ubuntu
       image: ubuntu:latest
-      command: bash -c "ls"
+      command: bash -c "pwd;ls"

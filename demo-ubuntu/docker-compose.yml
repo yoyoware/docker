@@ -4,4 +4,4 @@ services:
    ubuntu:
       container_name: demo-ubuntu
       image: ubuntu:latest
-      command: bash -c "sudo apt install curl"
+      command: bash -c "ls"

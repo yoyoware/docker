@@ -4,4 +4,4 @@ services:
    ubuntu:
       container_name: demo-ubuntu
       image: ubuntu:latest
-      command: bash -c "apt update; apt -y install git;git --version"
+      command: bash -c "git --version;apt update; apt -y install git;git --version"

@@ -7,8 +7,9 @@ pip install flask<br>
 pip install flask-mysql<br>
 cd /opt<br>
 cat > /opt/app.py<br>
-import os
-from flask import Flask
+<br>
+import os<br>
+from flask import Flask<br>
 app = Flask(__name__)
 
 @app.route("/")

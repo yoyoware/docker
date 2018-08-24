@@ -1,12 +1,12 @@
 the following commands will launch a simple python website
 
-docker run -it -p5000:5000 ubuntu bash
-apt update
-apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
-pip install flask
-pip install flask-mysql
-cd /opt
-cat > /opt/app.py
+docker run -it -p5000:5000 ubuntu bash<br>
+apt update<br>
+apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb<br>
+pip install flask<br>
+pip install flask-mysql<br>
+cd /opt<br>
+cat > /opt/app.py<br>
 import os
 from flask import Flask
 app = Flask(__name__)
@@ -21,6 +21,7 @@ def main():
 
         if __name__ == "__main__":
             app.run()
-
+<br>
+<br>
 FLASK_APP=app.py flask run --host=0.0.0.0
 

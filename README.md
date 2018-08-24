@@ -25,6 +25,8 @@ configuration: copy/page password from docker install completion page
 <br>
 <br>
 <br>
+<h1>install docker</h1>
+curl -fsSL get.docker.com -o get-docker.sh; sh get-docker.sh
 <h1>stop & remove all containers, remove dangling volumes</h1>
 docker ps -aq;docker stop $(docker ps -a -q);docker rm $(docker ps -a -q);docker rmi $(docker images -q);docker volume prune -f;docker ps -aq
 <br>

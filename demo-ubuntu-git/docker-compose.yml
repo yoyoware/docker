@@ -1,7 +1,0 @@
-version: '3'
-
-services:
-   ubuntu:
-      container_name: demo-ubuntu
-      image: ubuntu:latest
-      command: bash -c "git --version;apt update; apt -y install git;git --version"

@@ -8,6 +8,7 @@ pip install flask-mysql<br>
 cd /opt<br>
 cat > /opt/app.py<br>
 <br>
+<b>
 import os<br>
 from flask import Flask<br>
 app = Flask(__name__)<br>
@@ -22,6 +23,7 @@ def main():<br>
 <br>
         if __name__ == "__main__":<br>
             app.run()<br>
+</b>
 <br>
 <br>
 FLASK_APP=app.py flask run --host=0.0.0.0

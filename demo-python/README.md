@@ -10,18 +10,18 @@ cat > /opt/app.py<br>
 <br>
 import os<br>
 from flask import Flask<br>
-app = Flask(__name__)
-
-@app.route("/")
-def main():
-    return "Welcome!"
-
-    @app.route('/how are you')
-    def hello():
-        return 'I am good, how about you?'
-
-        if __name__ == "__main__":
-            app.run()
+app = Flask(__name__)<br>
+<br>
+@app.route("/")<br>
+def main():<br>
+    return "Welcome!"<br>
+<br>
+    @app.route('/how are you')<br>
+    def hello():<br>
+        return 'I am good, how about you?'<br>
+<br>
+        if __name__ == "__main__":<br>
+            app.run()<br>
 <br>
 <br>
 FLASK_APP=app.py flask run --host=0.0.0.0

@@ -26,5 +26,5 @@ def main():<br>
 </b>
 <br>
 <br>
-FLASK_APP=app.py flask run --host=0.0.0.0
+FLASK_APP=/opt/app.py flask run --host=0.0.0.0
 

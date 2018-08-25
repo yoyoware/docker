@@ -1,3 +1,7 @@
+below are some docker swarm commands<br>
+<br>
+if you don't have an OS running docker, this site provides FREE docker nodes: www.play-with-docker.com<br>
+<br>
 <b>#initialize this node as swarm MASTER</b><br>
 docker swarm init --advertise-addr 192.168.0.46
 

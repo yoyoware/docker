@@ -18,11 +18,11 @@ docker service create --name "rule-the-world" -p 80:80 --replicas 2 nginx
 docker service create --name "rule-the-world" -p 80:80 --replicas 1000 nginx
 
 <b>#increase the number of replicas for a given service</b><br>
-docker service scale rule-the-world=5
-docker service scale rule-the-world=10
-docker service scale rule-the-world=20
-docker service scale rule-the-world=100
-docker service scale rule-the-world=1000
+docker service scale rule-the-world=5<br>
+docker service scale rule-the-world=10<br>
+docker service scale rule-the-world=20<br>
+docker service scale rule-the-world=100<br>
+docker service scale rule-the-world=1000<br>
 
 <b>#list the services running in the swarm along with replicas</b><br>
 docker service ls

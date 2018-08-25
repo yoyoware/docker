@@ -13,7 +13,7 @@ docker service create --name "rule-the-world" -p 80:80 nginx
 <b>#start nginx in a single container in ALL of the swarm nodes</b><br>
 docker service create --name "rule-the-world" -p 80:80 --mode global nginx
 
-<b>#start nginx in a 2 replica containers of the swarm nodes</b><br>
+<b>#start nginx in a x replica containers of the swarm nodes</b><br>
 docker service create --name "rule-the-world" -p 80:80 --replicas 2 nginx
 docker service create --name "rule-the-world" -p 80:80 --replicas 1000 nginx
 
@@ -34,7 +34,14 @@ docker service ps rule-the-world
 docker ps
 
 <b>#remove service</b><br>
-docker service rm rule-the-world;docker ps
+docker service rm rule-the-world
+
+<b>#change a node avaiability to not active - preventing services from being run there</b><br>
+docker node update --availability drain node1;docker node ls
+
+<b>#change a node avaiability to active - allowing services to run there</b><br>
+docker node update --availability active node1;docker node ls
+
 
 
 

@@ -21,11 +21,11 @@ docker service create --name "rule-the-world" -p 80:80 --mode global nginx
 docker service create --name "rule-the-world" -p 80:80 --replicas 2 nginx
 
 <b>#start alpine container in one of the swarm nodes</b><br>
-docker service create --name "pingnode1" alpine ping 192.168.0.18
-docker service ls
-docker service ps pingnode1
-on target node run: docker ps
-on target node run: docker logs -f <container id>
+docker service create --name "pingnode1" alpine ping 192.168.0.18<br>
+docker service ls<br>
+docker service ps pingnode1<br>
+on target node run: docker ps<br>
+on target node run: docker logs -f <container id><br>
   
 <b>#increase the number of replicas for a given service</b><br>
 docker service scale rule-the-world=5<br>

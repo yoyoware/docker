@@ -26,7 +26,14 @@ docker service ls<br>
 docker service ps pingnode1<br>
 on target node run: docker ps<br>
 on target node run: docker logs -f <container id><br>
-  
+
+<b>#start jenkins in a single container in ONE of the swarm nodes</b><br>
+docker service create --name "iam_jenkins" --replicas 2 -p 8080:8080 jenkins
+docker service ls<br>
+docker service ps iam_jenkins<br>
+on target node run: docker ps<br>
+on target node run: docker logs -f <container id><br>
+
 <b>#increase the number of replicas for a given service</b><br>
 docker service scale rule-the-world=5<br>
 docker service scale rule-the-world=10<br>

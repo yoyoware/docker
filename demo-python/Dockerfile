@@ -1,10 +1,20 @@
-FROM ubuntu
+# Use an official Python runtime as a parent image
+FROM python:2.7-slim
 
-RUN apt-get update
-RUN apt-get install -y python python-pip
-RUN pip install flask
+# Set the working directory to /app
+WORKDIR /app
 
-COPY app.py /opt/
+# Copy the current directory contents into the container at /app
+ADD . /app
 
-ENTRYPOINT FLASK_APP=/opt/app.py flask run --port=8080
+# Install any needed packages specified in requirements.txt
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
+# Make port 80 available to the world outside this container
+EXPOSE 80
+
+# Define environment variable
+ENV NAME World
+
+# Run app.py when the container launches
+CMD ["python", "app.py"]

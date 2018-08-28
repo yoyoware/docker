@@ -13,6 +13,7 @@ URL:8080<br>
 configuration: copy/page password from docker install completion page
 <br>
 <h1>ubuntu ls</h1>cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-ubuntu-ls;sudo docker-compose up<br>
+<h1>ubuntu +echo hello world</h1>docker run ubuntu /bin/echo 'Hello world'  
 <h1>ubuntu +install: curl, git, docker</h1>cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-ubuntu-installs;sudo docker-compose up<br>
 <h1>python</h1>cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-python;sudo docker build -t mypython:latest .;sudo docker run mypython<br>
 <h1>hello-world</h1>cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-hello-world;sudo docker build -t hello-world:latest .;sudo docker run hello-world<br><br>

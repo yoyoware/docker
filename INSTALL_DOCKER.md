@@ -1,7 +1,7 @@
 
 
 <h1>install docker (https://get.docker.com)</h1>
-curl -fsSL get.docker.com -o get-docker.sh;sh get-docker.sh;sudo apt install docker-compose;sudo docker run hello-world<br>
+curl -fsSL get.docker.com -o get-docker.sh;sh get-docker.sh;sudo apt install -y docker-compose;sudo docker run hello-world<br>
 OR<br>
 curl -fsSL get.docker.com -o get-docker.sh;sh get-docker.sh;sudo apt install docker-compose;sudo usermod -aG docker $(whoami)<br>
 logout<br>

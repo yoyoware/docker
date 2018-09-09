@@ -6,6 +6,6 @@ services:
       image: jenkins:latest
       ports:
          - 8080:8080
-      volumes:
-         - "./my-jenkins-data:/var/jenkins_home"
+#      volumes:
+#         - "./my-jenkins-data:/var/jenkins_home"
 

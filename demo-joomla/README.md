@@ -1,4 +1,6 @@
 www.play-with-docker.com<br>
+<h1>docker run</h1>
+docker run -it -p 80:80 joomla<br>
 <h1>docker-compose with bash</h1>
 cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-joomla;sudo docker-compose up -d<br>
 docker exec -it demo bash

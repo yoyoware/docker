@@ -1,5 +1,4 @@
 www.play-with-docker.com<br>
-<h1>git clone</h1>cd;git clone https://github.com/yoyoware/docker
 <h1>jenkins</h1>cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-jenkins;mkdir my-jenkins-data;chmod 777 my-jenkins-data;sudo docker-compose up<br>
 URL:8080<br>
 configuration: copy/page password from docker install completion page

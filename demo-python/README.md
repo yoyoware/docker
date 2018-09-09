@@ -1,4 +1,8 @@
 www.play-with-docker.com<br>
+<h1>docker run</h1>docker run -it -p 4000:80 python<br>
+
+
+
 <h1>docker run</h1>
 docker run -it -p 5000:5000 ubuntu bash<br>
 apt update<br>

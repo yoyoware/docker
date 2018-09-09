@@ -36,7 +36,7 @@ docker run mypython -p5000:5000
 
 
 <h1>docker-compose with bash</h1>
-cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-jenkins;sudo docker-compose up -d<br>
+cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-python;sudo docker-compose up -d<br>
 docker exec -it demo bash
 
 

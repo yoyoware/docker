@@ -2,7 +2,7 @@ version: '3'
 
 services:
    jenkins:
-      container_name: demo-jenkins 
+      container_name: demo 
       image: jenkins:latest
       ports:
          - 8080:8080

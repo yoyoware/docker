@@ -6,6 +6,7 @@ services:
       image: nginx:latest
       ports:
          - 80:80
+# un-comment these two line to have a custom message from index.html
 #      volumes:
 #         - "./web:/usr/share/nginx/html"
 

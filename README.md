@@ -1,6 +1,4 @@
-below are some quick (one command line) docker demos<br>
-<br>
-if you don't have an OS running docker, this site provides FREE docker nodes: www.play-with-docker.com<br>
+www.play-with-docker.com<br>
 <br>
 <h1>git clone</h1>cd;git clone https://github.com/yoyoware/docker
 <br>

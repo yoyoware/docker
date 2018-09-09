@@ -37,7 +37,11 @@ docker run mypython -p5000:5000
 
 <h1>docker-compose with bash</h1>
 cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-python;sudo docker-compose up -d<br>
+
+cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-python;sudo docker build -t mypython:latest .;sudo docker run -p 4000:80 mypython
 docker exec -it demo bash
+
+
 
 
 the following commands will launch a simple python website

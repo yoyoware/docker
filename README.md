@@ -1,5 +1,4 @@
 www.play-with-docker.com<br>
-<br>
 <h1>git clone</h1>cd;git clone https://github.com/yoyoware/docker
 <br>
 <h1>nginx</h1>cd;git clone https://github.com/yoyoware/docker;cd docker/demo-nginx;sudo docker-compose up<br>

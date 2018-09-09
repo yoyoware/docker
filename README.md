@@ -1,6 +1,6 @@
 www.play-with-docker.com<br>
-
-
+<h1>git clone</h1>
+cd;git clone https://github.com/yoyoware/docker
 <h1>stop & remove all containers, remove dangling volumes</h1>
 docker ps -aq;docker stop $(docker ps -a -q);docker rm $(docker ps -a -q);docker rmi $(docker images -q);docker volume prune -f;docker ps -aq
 <br>

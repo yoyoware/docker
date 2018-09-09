@@ -2,10 +2,10 @@ version: '3'
 
 services:
    nginx:
-      container_name: demo-nginx 
-      image: nginx:latest
+      container_name: demo 
+      image: python:latest
       ports:
-         - 80:80
-      volumes:
-         - "./web:/usr/share/nginx/html"
+         - 5000:5000
+#      volumes:
+#         - "./web:/usr/share/nginx/html"
 

@@ -3,5 +3,5 @@
 cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-ubuntu-installs;sudo docker-compose up -d<br>
 docker container ls<br>
 docker container exec -it
-docker exec -it ubuntu_bash bash
+docker exec -it demo-ubuntu bash
 

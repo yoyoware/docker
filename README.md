@@ -1,16 +1,6 @@
 www.play-with-docker.com<br>
 <h1>hello-world</h1>cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-hello-world;sudo docker build -t hello-world:latest .;sudo docker run hello-world<br><br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h1>install docker</h1>
-curl -fsSL get.docker.com -o get-docker.sh; sh get-docker.sh;sudo usermod -aG docker ubuntu
+
 <h1>stop & remove all containers, remove dangling volumes</h1>
 docker ps -aq;docker stop $(docker ps -a -q);docker rm $(docker ps -a -q);docker rmi $(docker images -q);docker volume prune -f;docker ps -aq
 <br>

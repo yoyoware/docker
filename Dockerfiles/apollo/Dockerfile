@@ -4,11 +4,10 @@
 #STEPS
 #install docker
 #pull docker repo
-#cd; cd docker/Dockerfiles;cd sample-1;docker build --tag sample-1 .;docker run --rm -it sample-1 bash
+#cd; cd docker/Dockerfiles;cd apollo;docker build --tag apollo .;docker run --rm -it apollo bash
 
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get install -y \
-    git
+RUN apt-get update && apt-get install -y git && apt-get install -y npm
     
 CMD ["git", "--version"]

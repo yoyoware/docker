@@ -4,4 +4,4 @@ services:
    ubuntu:
       container_name: demo
       image: ubuntu:latest
-      command: bash -c "apt update; apt -y install curl;apt -y install git;curl -fsSL get.docker.com -o get-docker.sh;sh get-docker.sh;curl --version;git --version;docker --version"
+      command: bash -c "apt-get update;apt-get install -y git;apt-get install -y npm;apt-get install -y curl;apt-get install -y vim;npm i -g npx"

@@ -1,6 +1,9 @@
-www.play-with-docker.com<br>
-<h1>docker run</h1>docker run -it ubuntu bash<br>
-<h1>docker-compose with bash</h1>
-cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-graphql;sudo docker-compose up -d<br>
-docker exec -it demo bash
+www.play-with-docker.com
+
+# docker run
+`docker run -it ubuntu bash`
+
+# docker-compose with bash
+`cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-graphql;sudo docker-compose up -d`
+`docker exec -it demo bash`
 

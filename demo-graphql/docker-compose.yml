@@ -6,4 +6,12 @@ services:
       image: ubuntu:latest
       ports: 
          - 80:80
-      command: bash -c "apt-get update;apt-get install -y git;apt-get install -y npm;apt-get install -y curl;apt-get install -y vim;npm i -g npx"
+      command: >
+              bash -c "
+              apt-get update;
+              apt-get install -y git;
+              apt-get install -y npm;
+              apt-get install -y curl;
+              apt-get install -y vim;
+              npm i -g npx
+              "

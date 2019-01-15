@@ -5,5 +5,5 @@ www.play-with-docker.com
 
 # docker-compose with bash
 `cd;git clone https://github.com/yoyoware/docker;cd ./docker/demo-graphql;sudo docker-compose up -d`<br>
-`docker exec -it demo bash`
+`docker exec -it graphql bash`
 
